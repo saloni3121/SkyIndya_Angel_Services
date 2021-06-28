@@ -255,7 +255,13 @@ a:focus {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+.caro_alignment{
+    margin-top: 300px;
+}
+.carousel-item>img{
+    width: 1520px;
+    height: 800px;
+}
 .hero .container-fluid {
     padding: 0;
 }
@@ -281,6 +287,10 @@ a:focus {
 }
 .hero .hero-text{
     margin-top: 100px;
+}
+.hero-text{
+    background-color: #DADADA;
+    padding: 30px;
 }
 .hero .hero-text p {
     color: #ffffff;
@@ -382,6 +392,14 @@ a:focus {
     .hero .hero-text h1 {
         font-size: 35px;
     }
+
+    .caro_alignment{
+        margin-top: 100px;
+    }
+    .carousel-item>img{
+        width: 700px;
+        height: 600px;
+    }
     
     .hero .hero-text h2 {
         font-size: 22px;
@@ -403,6 +421,14 @@ a:focus {
         font-size: 30px;
     }
     
+    .caro_alignment{
+        margin-top: 100px;
+    }
+    .carousel-item>img{
+        width: 400px;
+        height: 600px;
+    }
+
     .hero .hero-text h2 {
         font-size: 18px;
         height: 18px;
@@ -1989,7 +2015,7 @@ select option {
         display: block;
     }
     .track{
-        background-color: #111111;
+        /* background-color: #111111; */
         width: 200px;
         display: block;
     }
@@ -2073,3 +2099,6 @@ select option {
     width: 220px;
     height: 220px;
 }
+
+
+
